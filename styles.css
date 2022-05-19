@@ -36,15 +36,17 @@
     opacity: 1;
   }
 #aa{
-position:absolute;  margin-top: 500px;
-
-max-width: 500px;
+position:relative; 
+  display: flex;
+  max-width: 500px;
+  margin-top: 9px;
 }
 #copybut{
   display: flex;
   position:relative;
   margin-left: 330px;
   margin-top:-22px ;
+  width:95px;
 }
 p {
   background-color: rgb(230, 230, 230);

@@ -6,17 +6,16 @@
 <script src="jscript.js"></script>
 </head>
 <body>
-<p id="aa">Get your bionic text here</p>
-
-<textarea rows = "30" cols = "60" id="myInput">Insert your text here.</textarea>
+<textarea rows = "30" cols = "60" id="myInput" placeholder="Insert your text here."></textarea>
 <div class="tooltip">
-<button onclick="myFunction()" onmouseout="outFunc()">
-<span class="tooltiptext" id="myTooltip">Convert to Bionic</span>
+<button onclick="myFunction()" onmouseenter="outFunc()">
+<span class="tooltiptext" id="myTooltip"></span>
 Convert
 </button>
 </div>
 <button id="copybut" onclick="copythis()">
     Copy HTML
     </button>
+    <p id="aa">Get your bionic text here</p>
 </body>
 </html>
