@@ -1,31 +1,37 @@
 function myFunction() 
 {
-    z = document.getElementById("myInput").value;
+  //other solution
+   /* z = document.getElementById("myInput").value;
    
     var x = z.replace(/\b..../g, function(m){ return m.bold(); });
-    document.getElementById("aa").innerHTML = x;
-}
+    document.getElementById("aa").innerHTML = x;*/
 
- //onhover event?
- /*$('.title-case').children().andSelf().each(function(){
-  $(this).html( capitalize_first_letter( $(this).text() ) );
-});
-
-function capitalize_first_letter( str ) {    
- return str.replace(/\b[A-Z]/g,'<span class="first-letter">$&</span>');    
-}​*/
-  function outFunc() 
-  {
-    var tooltip = document.getElementById("myTooltip");
-    tooltip.innerHTML = "Convert to Bionic";
-  }
-
-
-
-  function copythis(){
-    var copyText = document.getElementById("aa");
-    
-    navigator.clipboard.writeText(copyText.innerHTML);
-
-}
+    change = document.getElementById("myInput");
+    let yazi;
+    yazi = change.value;
+    const words = yazi.split(" ");
+    let edited = [];
   
+  words.forEach((word, index) => {
+    const split = word.split("");
+    const toBold = Math.ceil(word.length / 2); 
+    edited.push("<b>");
+    for(let i = 1; i <= toBold; i++){
+      edited.push(split[i-1]);
+    }
+    edited.push("</b>");
+   
+    for(let i = toBold; i < split.length; i++){
+      edited.push(split[i]);
+    }
+    edited.push(" ");
+  });
+  document.getElementById("aa").innerHTML = edited.join("");
+}
+
+function copytext(){
+  var copyText = document.getElementById("aa");
+  
+  navigator.clipboard.writeText(copyText.innerHTML);
+
+}
