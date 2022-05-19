@@ -1,50 +1,16 @@
-.tooltip {
-    position: relative;
-     margin-left:100px ;
-  }
-  
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 140px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px;
-    position: absolute;
-    z-index: 1;
-    top:-0.7%;
-    left: 10%;
-    margin-left: -75px;
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-  
-  .tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    bottom:30%;
-    left: -3%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent #555 transparent  transparent;
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
-  }
+#convertbut {
+  display: flex;
+  position: relative;
+  margin-top: 5px;margin-left: 100px;  }
 #aa{
 position:relative; 
-  display: flex;
-  max-width: 500px;
+  max-width: 450px;
   margin-top: 9px;
 }
 #copybut{
   display: flex;
   position:relative;
-  margin-left: 330px;
+  margin-left: 270px;
   margin-top:-22px ;
   width:95px;
 }
@@ -52,12 +18,12 @@ p {
   background-color: rgb(230, 230, 230);
   display: inline-block;
   border: 3px solid darkslategrey;
-width: 500px;
+width: 450px;
 padding: 20px;
   
 }
 #myInput{
-  background-color: rgb(230, 230, 230);width: 540px;
+  background-color: rgb(230, 230, 230);width: 490px;
 }
 body{
   font-family: Helvetica,'Microsoft YaHei',simsun,serif;color: #454545;line-height:1.5em; background-color: #1b1b1b;
