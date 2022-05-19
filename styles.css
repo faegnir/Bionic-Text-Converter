@@ -3,7 +3,7 @@
   position: relative;
   margin-top: 5px;margin-left: 100px;  }
 #aa{
-position:relative; 
+  position:relative; 
   max-width: 450px;
   margin-top: 9px;
 }
@@ -12,19 +12,11 @@ position:relative;
   position:relative;
   margin-left: 270px;
   margin-top:-22px ;
-  width:95px;
-}
+  width:95px;}
 p {
   background-color: rgb(230, 230, 230);
   display: inline-block;
   border: 3px solid darkslategrey;
-width: 450px;
-padding: 20px;
-  
-}
-#myInput{
-  background-color: rgb(230, 230, 230);width: 490px;
-}
-body{
-  font-family: Helvetica,'Microsoft YaHei',simsun,serif;color: #454545;line-height:1.5em; background-color: #1b1b1b;
-}
+  width: 450px; padding: 20px;  }
+#myInput {background-color: rgb(230, 230, 230);width: 490px;}
+body{font-family: Helvetica,'Microsoft YaHei',simsun,serif;color: #454545;line-height:1.5em; background-color: #1b1b1b;}
