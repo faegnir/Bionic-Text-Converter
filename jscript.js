@@ -7,7 +7,13 @@ function myFunction()
 }
 
  //onhover event?
+ /*$('.title-case').children().andSelf().each(function(){
+  $(this).html( capitalize_first_letter( $(this).text() ) );
+});*/
 
+function capitalize_first_letter( str ) {    
+ return str.replace(/\b[A-Z]/g,'<span class="first-letter">$&</span>');    
+}​
   function outFunc() 
   {
     var tooltip = document.getElementById("myTooltip");

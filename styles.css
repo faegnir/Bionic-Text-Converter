@@ -1,7 +1,7 @@
 #convertbut {
   display: flex;
   position: relative;
-  margin-top: 5px;margin-left: 100px;  }
+  margin-top: 5px;margin-left: 110px;  }
 #aa{
   position:relative; 
   max-width: 450px;
@@ -10,7 +10,7 @@
 #copybut{
   display: flex;
   position:relative;
-  margin-left: 270px;
+  margin-left: 280px;
   margin-top:-22px ;
   width:95px;}
 p {
