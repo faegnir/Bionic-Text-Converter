@@ -1,7 +1,7 @@
 .tooltip {
     position: absolute;
-    margin-left: 10px;
-    margin-top: 1px;
+    margin-left: -450px;
+  margin-top:469px;
     display: inline-block;
   }
   
@@ -38,22 +38,26 @@
     opacity: 1;
   }
 #aa{
-position:absolute;  margin-left: 600px;
-margin-top: -3px;
+position:absolute;  margin-top: 500px;
+
 max-width: 500px;
 }
 #copybut{
-  margin-left:144px;
-  margin-top:5px;
+  margin-left: -270px;
+  margin-top:471px;
   position:absolute;
 }
 p {
   background-color: rgb(230, 230, 230);
   display: inline-block;
   border: 3px solid darkslategrey;
-  padding: 50px;
-  margin: 20px;
+width: 500px;
+padding: 20px;
+  
 }
 #myInput{
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(230, 230, 230);width: 540px;
+}
+body{
+  font-family: Helvetica,'Microsoft YaHei',simsun,serif;color: #454545;line-height:1.5em; background-color: #1b1b1b;
 }
