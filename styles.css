@@ -1,22 +1,22 @@
 #convertbut {
   display: flex;
-  position: relative;
-  margin-top: 5px;margin-left: 110px;  }
+  position: relative;width:auto;
+  margin-top: 5px;margin-left: 108px;  }
 #aa{
   position:relative; 
-  max-width: 450px;
+  max-width: 453px;
   margin-top: 9px;
 }
 #copybut{
   display: flex;
   position:relative;
-  margin-left: 280px;
+  margin-left: 278px;
   margin-top:-22px ;
-  width:95px;}
+  width:auto;}
 p {
   background-color: rgb(230, 230, 230);
   display: inline-block;
   border: 3px solid darkslategrey;
-  width: 450px; padding: 20px;  }
-#myInput {background-color: rgb(230, 230, 230);width: 490px;}
+  width: 454px; padding: 10px;  }
+#myInput {background-color: rgb(230, 230, 230);width: 470px;height: 300px;margin-left: 2px;}
 body{font-family: Helvetica,'Microsoft YaHei',simsun,serif;color: #454545;line-height:1.5em; background-color: #1b1b1b;}
