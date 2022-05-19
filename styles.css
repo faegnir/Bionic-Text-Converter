@@ -1,8 +1,6 @@
 .tooltip {
-    position: absolute;
-    margin-left: -450px;
-  margin-top:469px;
-    display: inline-block;
+    position: relative;
+     margin-left:100px ;
   }
   
   .tooltip .tooltiptext {
@@ -15,8 +13,8 @@
     padding: 5px;
     position: absolute;
     z-index: 1;
-    bottom: -150%;
-    left: 50%;
+    top:-0.7%;
+    left: 10%;
     margin-left: -75px;
     opacity: 0;
     transition: opacity 0.3s;
@@ -25,12 +23,12 @@
   .tooltip .tooltiptext::after {
     content: "";
     position: absolute;
-    top: -40%;
-    left: 50%;
+    bottom:30%;
+    left: -3%;
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent #555 transparent;
+    border-color: transparent #555 transparent  transparent;
   }
   
   .tooltip:hover .tooltiptext {
@@ -43,9 +41,10 @@ position:absolute;  margin-top: 500px;
 max-width: 500px;
 }
 #copybut{
-  margin-left: -270px;
-  margin-top:471px;
-  position:absolute;
+  display: flex;
+  position:relative;
+  margin-left: 330px;
+  margin-top:-22px ;
 }
 p {
   background-color: rgb(230, 230, 230);
